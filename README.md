@@ -1,4 +1,8 @@
-## Hi there 👋
+Langages (Sorted in experience):
+- Lua
+- JS
+- SQL
+- Python
 
 <!--
 **Alex9914/Alex9914** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
