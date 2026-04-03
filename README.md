@@ -1,6 +1,6 @@
 I swap my PFP every week using [nekos.best](https://nekos.best/)
 
-Langages (Sorted in experience):
+Langages (Sorted by experience):
 - Lua
 - JS
 - SQL
