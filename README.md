@@ -1,4 +1,4 @@
-I swap my PFP every week using [nekos.best](https://nekos.best/)
+I swap my PFP every week with pictures from [nekos.best](https://nekos.best/)
 
 Langages (Sorted by experience):
 - Lua
