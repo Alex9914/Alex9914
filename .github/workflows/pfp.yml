@@ -23,7 +23,7 @@ jobs:
       - name: Start Swap
         env:
           ghPat: ${{ secrets.GH_PAT_VARIABLES }}
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.WORDPRESS_BEARER_TOKEN }}
           emails: ${{ secrets.EMAILS }}
           lastId: ${{ fromJSON(vars.PFP_DATA).lastId }}
           lastUrl: ${{ fromJSON(vars.PFP_DATA).lastUrl }}
