@@ -1,10 +1,9 @@
-I swap out my PFP every week with a random picture from [nekos.best](https://nekos.best/)
+My PFP is automatically swapped out with a random picture from [nekos.best](https://nekos.best/) at the start of every week
 
 Langages (Sorted by experience):
 - Lua
-- JS
-- SQL
-- Python
+- JS (Still learning)
+- SQL (Good enough to do what I want)
 
 <!--
 **Alex9914/Alex9914** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
