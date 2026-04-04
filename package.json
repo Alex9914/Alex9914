@@ -1,0 +1,18 @@
+{
+  "name": "auto-pfp-swapper",
+  "version": "1.0.0",
+  "description": "",
+  "license": "CC BY-NC-SA 4.0",
+  "author": "Alex9914",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@octokit/core": "^7.0.6",
+    "axios": "^1.14.0",
+    "form-data": "^4.0.5",
+    "sharp": "^0.34.5"
+  }
+}

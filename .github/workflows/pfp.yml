@@ -1,0 +1,30 @@
+name: Swap out Gravatar PFP
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  pfpswap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm i
+
+      - name: Start Swap
+        env:
+          ghPat: ${{ secrets.GH_PAT_VARIABLES }}
+          token: ${{ secrets.TOKEN }}
+          emails: ${{ secrets.EMAILS }}
+          lastId: ${{ fromJSON(vars.PFP_DATA).lastId }}
+          lastUrl: ${{ fromJSON(vars.PFP_DATA).lastUrl }}
+        run: npm run start
